@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexivel</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: #64E00F;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font size: 20pix
+        }
+        h1{
+            color:#18DB1B ; background-color: #02E184;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Imagem Flexível</h1>
+    <p>Você está vendo a Imagem completa?Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/p.jpg">
+        <source media="(max-width: 1050px )" srcset="imagens/m.jpg">
+        <img src="imagens/g.jpg" alt="">
+    </picture>
+</body>
+</html>

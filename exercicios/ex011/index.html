@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html</title>
+</head>
+<body>
+    <h1>Imgens diamicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplemente e diminu o tamanho de seu navegador</p>
+    <picture>
+        <source media="(max-width:  750px)" srcset="imgens/p.png">
+        <source media="(max-width:  1050px)" srcset="imgens/m.png" type="image/png">
+        <img src="imgens/g.png" alt="Imgem flexível">
+    </picture>
+    <h1>Reproduzido Áudio</h1>
+    <p>Vamos apreder a reproduzr áudios em HTML.</p>
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/No Turning Back (Clean) - NEFFEX.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>
