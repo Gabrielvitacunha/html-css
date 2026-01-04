@@ -131,6 +131,7 @@ main a{
 }
 main > img{
     width: 100%;
+
 }
 main img.pequena{
     max-width: 350px;
@@ -143,6 +144,7 @@ div.videos{
     padding: 20px;
     padding-bottom: 50%;
     position: relative;
+
 }
 div.videos > iframe{
     position: absolute;
